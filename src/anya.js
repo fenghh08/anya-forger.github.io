@@ -39,7 +39,7 @@ const titles = ["Taiwan | DYSH | HipHop"];
 
 const about = [
     "I'm Yifeng and currently a student stuidying in DYSH located at Taoyuan. ",
-    "I have participated in Hip Hop Dance club ",
+    "I have participated in Hip Hop Dance club",
     "I like learning linguistics and adore the spirit of stepping out of comfort zone.",
     "Thus, I always strive to enhance myself and engage in sonething novel.",
     
