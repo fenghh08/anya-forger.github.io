@@ -35,21 +35,15 @@ pic.avatars.push(
     "https://spy-family.net/assets/img/special/episode12/06.png",
 );
 
-const titles = ["First-Grade Student", "Test Subject 007", "Telepath"];
+const titles = ["Taiwan | DYSH | HipHop"];
 
 const about = [
-    "My name is Anya Forger. I am 6 years old now!",
-    "I am studing in Cecile Hall at Eden Academy.",
+    "I'm Yifeng and currently a student stuidying in DYSH located at Taoyuan. ",
+    "I have participated in Hip Hop Dance club ",
     "",
-    "This summer I went to NTNU CSIE Camp to learn how to code.",
-    "During the camp, I learned how to: ",
-    "  - Build SPA Website with frontend framework Vue and Tailwind.",
-    "  - Develop efficiently with Node.js ecosystem.",
-    "  - Design and develop a gomoku gaming agent with Python.",
-    "  - Operate Linux system with common commands.",
-    "  - Use Git and GitHub to work on projects.",
-    "",
-    'By the way, I am starring in an anime called "SPY x FAMILY". Did you watch it?',
+    "I like learning linguistics and adore the spirit of stepping out of comfort zone.",
+    "Thus, I always strive to enhance myself and engage in sonething novel.",
+    
 ].join("\n");
 
 const projects = [

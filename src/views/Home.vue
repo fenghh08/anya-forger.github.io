@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-import MdiGithub from "~icons/mdi/github";
+import Vlog from "~icons/mdi/youtube";
 import MdiInstagram from "~icons/mdi/instagram";
 import { pic, titles } from "../anya";
 import Typing from "../components/Typing.vue";
@@ -13,7 +13,7 @@ const width = screen.width;
         <div class="flex w-full flex-col md:flex-row">
             <div class="w-full md:w-1/2">
                 <Typing
-                    text="Anya Forger"
+                    text="Yifeng"
                     @done="step++"
                     class="mb-2 block text-2xl sm:text-3xl lg:text-4xl"
                 />
@@ -21,17 +21,16 @@ const width = screen.width;
                 <a
                     v-if="step > 1"
                     class="mt-8 flex items-center text-lg text-gray-500 transition-all hover:text-gray-700"
-                    href="https://github.com/anya-forger"
+                    href="https://youtu.be/a8eFlCUrdn4"
                     target="_blank"
                 >
-                    <MdiGithub class="mr-1 inline-block" />
-                    <Typing v-if="step > 1" @done="step++" text="GitHub" :speed="60" />
+                    <Vlog class="mr-1 inline-block" />
+                    <Typing v-if="step > 1" @done="step++" text="Vlog" :speed="60" />
                 </a>
                 <a
                     v-if="step > 2"
                     class="mt-4 flex items-center text-lg text-gray-500 transition-all hover:text-gray-700"
-                    href="https://www.instagram.com/spy_family_official/"
-                    target="_blank"
+                    href="https://www.instagram.com/feng.hh/"
                 >
                     <MdiInstagram class="mr-1 inline-block" />
                     <Typing v-if="step > 2" @done="step++" text="Instagram" :speed="60" />
