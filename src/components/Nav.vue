@@ -2,7 +2,7 @@
 import { pic } from "../anya";
 
 const links = [
-    { text: "Anya", url: "/" },
+    { text: "Feng.hh", url: "/" },
     { text: "About", url: "/about" },
     { text: "Projects", url: "/projects" },
 ];
