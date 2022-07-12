@@ -2,7 +2,7 @@
 import { ref } from "vue";
 import Vlog from "~icons/mdi/youtube";
 import MdiInstagram from "~icons/mdi/instagram";
-import { pic, titles } from "../feng";
+import { pic, titles } from "../anya";
 import Typing from "../components/Typing.vue";
 
 let step = ref(0);

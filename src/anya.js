@@ -1,6 +1,6 @@
 const pic = {
     uniform: "https://spy-family.net/assets/img/common/header_bottomimg_3.png",
-    icecream: "https://spy-family.net/assets/img/common/header_bottomimg_3_family.png",
+    icecream: "https://i.imgur.com/eqizPAS.jpg",
     uniform_large: "https://spy-family.net/assets/img/top/chara_anya_1.png",
     casual_large: "https://spy-family.net/assets/img/top/chara_anya_2.png",
     avatars: [],
@@ -42,7 +42,7 @@ const about = [
     "I have participated in Hip Hop Dance club",
     "I like learning linguistics and adore the spirit of stepping out of comfort zone.",
     "Thus, I always strive to enhance myself and engage in sonething novel.",
-    
+
 ].join("\n");
 
 const projects = [
