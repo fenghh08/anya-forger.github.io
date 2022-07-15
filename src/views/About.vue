@@ -74,7 +74,7 @@ function update(delay = 0) {
                         v-show="step > 1 + i"
                         :src="pic.avatars[i]"
                         class="w-full cursor-pointer transition-all hover:scale-125"
-                        @click="open('https://spy-family.net/#tSpecial')"
+                        
                     />
                 </transition>
             </div>
