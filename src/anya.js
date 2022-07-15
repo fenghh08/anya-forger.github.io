@@ -1,7 +1,7 @@
 const pic = {
     uniform: "https://i.imgur.com/Ddomfgx.jpg",
     icecream: "https://i.imgur.com/eqizPAS.jpg",
-    uniform_large: "https://i.imgur.com/5dat9gZ.jpg",
+    uniform_large: "",
     casual_large: "",
     avatars: [],
 };
