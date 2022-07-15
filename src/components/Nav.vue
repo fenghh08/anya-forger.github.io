@@ -55,7 +55,7 @@ const links = [
             >
                 <img
                     :src="pic.uniform"
-                    class="w-full translate-y-12 scale-[180%] transition-all duration-200 hover:rounded-xl hover:pt-5 md:translate-y-14 md:hover:pt-7"
+                    class="w-full scale-[180%] transition-all duration-200 hover: hover:pt-5 md:hover:pt-7"
                 />
             </div>
         </transition>

@@ -1,71 +1,68 @@
 const pic = {
-    uniform: "https://spy-family.net/assets/img/common/header_bottomimg_3.png",
-    icecream: "https://i.imgur.com/eqizPAS.jpg",
-    uniform_large: "https://spy-family.net/assets/img/top/chara_anya_1.png",
-    casual_large: "https://spy-family.net/assets/img/top/chara_anya_2.png",
+    uniform: "https://i.imgur.com/Ddomfgx.jpg",
+    icecream: "https://i.imgur.com/5dat9gZ.jpg",
+    uniform_large: "https://i.imgur.com/5dat9gZ.jpg",
+    casual_large: "",
     avatars: [],
 };
 
-for (let i = 1; i <= 40; i++) {
-    pic.avatars[i] = `https://spy-family.net/assets/img/special/anya/${i
-        .toString()
-        .padStart(2, "0")}.png`;
-}
+
 pic.avatars.push(
-    "https://spy-family.net/assets/img/special/episode4/02.png",
-    "https://spy-family.net/assets/img/special/episode4/05.png",
-    "https://spy-family.net/assets/img/special/episode5/01.png",
-    "https://spy-family.net/assets/img/special/episode5/02.png",
-    "https://spy-family.net/assets/img/special/episode6/03.png",
-    "https://spy-family.net/assets/img/special/episode6/05.png",
-    "https://spy-family.net/assets/img/special/episode7/01.png",
-    "https://spy-family.net/assets/img/special/episode7/03.png",
-    "https://spy-family.net/assets/img/special/episode7/04.png",
-    "https://spy-family.net/assets/img/special/episode8/01.png",
-    "https://spy-family.net/assets/img/special/episode9/04.png",
-    "https://spy-family.net/assets/img/special/episode10/02.png",
-    "https://spy-family.net/assets/img/special/episode10/03.png",
-    "https://spy-family.net/assets/img/special/episode10/04.png",
-    "https://spy-family.net/assets/img/special/episode11/01.png",
-    "https://spy-family.net/assets/img/special/episode11/02.png",
-    "https://spy-family.net/assets/img/special/episode11/03.png",
-    "https://spy-family.net/assets/img/special/episode11/04.png",
-    "https://spy-family.net/assets/img/special/episode11/06.png",
-    "https://spy-family.net/assets/img/special/episode12/03.png",
-    "https://spy-family.net/assets/img/special/episode12/06.png",
+    "https://i.imgur.com/JccONR6.jpg",
+    "https://i.imgur.com/PbVAWNJ.jpg",
+    "https://i.imgur.com/JccONR6.jpg",
+    "https://i.imgur.com/JhtQwp7.jpg",
+    "https://i.imgur.com/7I5XvoR.jpg",
+    "https://i.imgur.com/jWogTfS.jpg",
+    "https://i.imgur.com/sJgP6M1.jpg",
+    "https://i.imgur.com/3i7JFU7.jpg",
+    "https://i.imgur.com/hXjUCL3.jpg",
+    "https://i.imgur.com/twOw7WI.jpg",
+    "https://i.imgur.com/WH1zE2v.jpg",
+    "https://i.imgur.com/QaRmumI.jpg",
+    "https://i.imgur.com/3XupXrx.jpg",
+    "https://i.imgur.com/2kwdn8d.jpg",
+    "https://i.imgur.com/DHM41ER.jpg",
+    "https://i.imgur.com/DxnUeIi.jpg",
+    "https://i.imgur.com/j4CFTP3.jpg",
+    "https://i.imgur.com/hxTBSBu.jpg",
+    "https://i.imgur.com/mq8luiA.jpg",
+    "https://i.imgur.com/y5HIAMC.jpg",
+    "https://i.imgur.com/EDVgibA.jpg",
 );
 
 const titles = ["Taiwan | DYSH | HipHop"];
 
 const about = [
-    "I'm Yifeng and currently a student stuidying in DYSH located at Taoyuan. ",
-    "I have participated in Hip Hop Dance club",
-    "I like learning linguistics and adore the spirit of stepping out of comfort zone.",
-    "Thus, I always strive to enhance myself and engage in sonething novel.",
+    "- DYSH ",
+    "- Hiphop Dance",
+    "- Beginner engineer",
+    "- Linguistics learning",
+    "- 16y",
 
 ].join("\n");
 
 const projects = [
     {
-        name: "My Portfolio Website",
-        description: "A portfolio website for myself that I developed in NTNU CSIE Camp.",
-        image: "https://spy-family.net/assets/img/special/wall02.jpg",
-        skills: ["Vue", "Tailwind", "Node.js", "GitHub"],
-        url: "https://github.com/anya-forger/anya-forger.github.io",
+        name: "My Youtube channel",
+        description: "Seldom upload some of my life vlog",
+        image: "https://i.imgur.com/kpkJvJa.jpg",
+        skills: ["Life | Vlog"],
+        url: "https://www.youtube.com/channel/UCBcBI52TS1vi_KiJc9ss4nA/channels",
     },
     {
-        name: "AI Gomoku Gaming Agent",
-        description: "A gomoku gaming agent with Python that I designed in NTNU CSIE Camp.",
-        image: "https://spy-family.net/assets/img/special/wall01.jpg",
-        skills: ["Python", "Algorithm", "Gomoku"],
-        url: "https://github.com/anya-forger",
+        name: "Dance video",
+        description: "Some performance video and anything regarding dancing.",
+        image: "https://i.imgur.com/nHDtf1F.jpg",
+        skills: ["Hiphop | Dance"],
+        url: "https://drive.google.com/drive/folders/1otL5zQWZoeAaD1w8wHamzAhQfz3y8tMh?usp=sharing"
     },
     {
-        name: "SPY x FAMILY",
-        description: "An anime that I starred in.",
-        image: "https://spy-family.net/assets/img/special/special10_1.gif",
-        skills: ["Performings"],
-        url: "https://spy-family.net",
+        name: "NTNU CSIE Camp",
+        description: "National Taiwan Normal University\nComputer Science and Information Engineering",
+        image: "https://i.imgur.com/qgGvkey.jpg",
+        skills: ["Learning"],
+        url: "https://www.facebook.com/ntnucsiecamp",
     },
 ];
 
