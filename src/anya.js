@@ -1,8 +1,8 @@
 const pic = {
     uniform: "https://i.imgur.com/Ddomfgx.jpg",
-    icecream: "https://i.imgur.com/5dat9gZ.jpg",
+    icecream: "https://i.imgur.com/eqizPAS.jpg",
     uniform_large: "https://i.imgur.com/5dat9gZ.jpg",
-    casual_large: "",
+    casual_large: "https://i.imgur.com/B8cNnT5.jpg",
     avatars: [],
 };
 
@@ -29,6 +29,26 @@ pic.avatars.push(
     "https://i.imgur.com/mq8luiA.jpg",
     "https://i.imgur.com/y5HIAMC.jpg",
     "https://i.imgur.com/EDVgibA.jpg",
+    "https://i.imgur.com/g41YxSz.jpg",
+    "https://i.imgur.com/vIYi7kx.jpg",
+    "https://i.imgur.com/c01RJkb.jpg",
+    "https://i.imgur.com/SSo9WZk.jpg",
+    "https://i.imgur.com/Hcb7TwS.jpg",
+    "https://i.imgur.com/JJNLxIx.jpg",
+    "https://i.imgur.com/qsrh60b.jpg",
+    "https://i.imgur.com/xOm3J8P.jpg",
+    "https://i.imgur.com/x9yWU7D.jpg",
+    "https://i.imgur.com/zl73CxJ.jpg",
+    "https://i.imgur.com/5jiR72P.jpg",
+    "https://i.imgur.com/Bm7ovqi.jpg",
+    "https://i.imgur.com/8VhNfP3.jpg",
+    "https://i.imgur.com/jgZUKwb.jpg",
+    "https://i.imgur.com/g9fVLSU.jpg",
+    "https://i.imgur.com/soEWfAI.jpg",
+    "https://i.imgur.com/hM0xTTp.jpg",
+    "https://i.imgur.com/HWzbTZW.jpg",
+    "https://i.imgur.com/gilEnq7.jpg",
+    "https://i.imgur.com/ruAj0Kt.jpg",
 );
 
 const titles = ["Taiwan | DYSH | HipHop"];
